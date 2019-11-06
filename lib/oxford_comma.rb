@@ -4,8 +4,8 @@ if array.length == 2
   array.join
 elsif array.length == 1
 array.join
-else 
-  array.join
+elsif array.length > 1
+  array.pr
 end 
 end
 
