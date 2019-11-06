@@ -1,5 +1,5 @@
 def oxford_comma(array)
-if array ==  array[0]
+if array == array[0]
   array[0] << " and "
   array.join
 elsif array.length == 1
